@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "settings"
+    label: "Управление портфолио"
+    files:
+      - label: "Мои работы (Фото и Видео)"
+        name: "works"
+        file: "data/works.json"
+        fields:
+          - label: "Список работ"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Тип", name: "type", widget: "select", options: ["photo", "video"]}
+              - {label: "Файл", name: "src", widget: "file"}
