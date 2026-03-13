@@ -3,6 +3,14 @@
     {
       "type": "photo",
       "src": "images/4.png"
+    },
+    {
+      "type": "video",
+      "src": "images/intro-.mp4"
+    },
+    {
+      "type": "photo",
+      "src": "images/1.jpeg"
     }
   ]
 }
